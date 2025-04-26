@@ -1,26 +1,19 @@
-# Ignore virtual environment folder
 venv/
 
-# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Log files
 *.log
 logs/
 
-# OS specific files
 .DS_Store
 Thumbs.db
 
-# IDE/editor specific
 .vscode/
 .idea/
 
-# Test results
 *.pytest_cache/
 
-# Environment variables or config files (if added later)
 .env
