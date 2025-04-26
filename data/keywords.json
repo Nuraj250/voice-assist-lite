@@ -1,5 +1,40 @@
 {
-    "time": ["what time is it", "tell me the time"],
-    "exit": ["exit", "quit", "stop"]
+    "google": {
+      "phrases": ["open google"],
+      "action": "open_url",
+      "data": "https://www.google.com"
+    },
+    "search": {
+      "phrases": ["search for"],
+      "action": "search"
+    },
+    "play_song": {
+      "phrases": ["play music", "start music"],
+      "action": "play_music",
+      "data": "C:/Users/YourName/Music/song.mp3"
+    },
+    "chrome": {
+      "phrases": ["open chrome", "launch chrome"],
+      "action": "open_app",
+      "data": "C:/Program Files/Google/Chrome/Application/chrome.exe"
+    },
+    "notepad": {
+      "phrases": ["open notepad"],
+      "action": "open_app",
+      "data": "notepad.exe"
+    },
+    "my_documents": {
+      "phrases": ["open documents folder", "show my files"],
+      "action": "open_folder",
+      "data": "C:/Users/YourName/Documents"
+    },
+    "shutdown": {
+      "phrases": ["shut down", "power off"],
+      "action": "shutdown"
+    },
+    "restart": {
+      "phrases": ["restart computer", "reboot"],
+      "action": "restart"
+    }
   }
   
